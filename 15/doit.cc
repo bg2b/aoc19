@@ -34,7 +34,7 @@ struct CPU {
   // Return memory location
   num &mem(num addr) {
     assert(addr >= 0);
-    if (size_t(addr) > memory.size())
+    if (size_t(addr) >= memory.size())
       memory.resize(max(size_t(addr) + 100, 2 * memory.size()), 0);
     return memory[addr];
   }
