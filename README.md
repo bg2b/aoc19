@@ -19,3 +19,5 @@ Input is on stdin, output is printed to stdout.  Run part 1 as `./doit
 Sometimes I might go back and revisit a problem in a different
 (usually more efficient) way.  Alternatives will be other `.cc` files
 starting with `doit`.
+
+![Advent calendar for 2019](advent.png)
