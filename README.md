@@ -11,7 +11,8 @@ g++ -std=c++17 -Wall -g -o doit doit.cc
 
 Input has sometimes been pre-processed for ease of reading.
 Example input if any is called `input1`.
-The real input is `input`.
+The real input is `input` (note, my inputs are no longer included in
+the repository).
 
 Input is on stdin, output is printed to stdout.  Run part 1 as `./doit
 1 < input` and part 2 as `./doit 2 < input`
